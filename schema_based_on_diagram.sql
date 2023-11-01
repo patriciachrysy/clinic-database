@@ -1,5 +1,7 @@
 create database clinic;
 
+\c clinic;
+
 create table patients(
     id serial primary key, 
     name varchar(255), 
@@ -17,7 +19,7 @@ create index idx_medical_histories_patient_id on medical_histories(patient_id);
 
 create table invoices(
     id serial primary key, 
-    total_amount decimal, 
+    total_amount decimal(12, 2), 
     generated_at timestamp, 
     payed_at timestamp, 
     medical_history_id int unique not null, 

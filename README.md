@@ -169,7 +169,7 @@ Example:
 
 - **A table for animal treatment record**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 

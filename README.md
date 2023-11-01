@@ -12,6 +12,7 @@
     - [Setup](#setup)
     - [Usage](#usage)
   - [👥 Authors ](#-authors-)
+  - [ Future Feature ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -161,11 +162,10 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES
+<!-- FUTURE FEATURES-->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - **A table for animal treatment record**
 

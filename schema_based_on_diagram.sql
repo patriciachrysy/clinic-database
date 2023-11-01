@@ -45,9 +45,9 @@ create index idx_medical_histories_treatments_treatment_id on medical_histories_
 
 create table invoice_items(
     id serial primary key, 
-    unit_price decimal, 
+    unit_price decimal(12, 2), 
     quantity int, 
-    total_price decimal, 
+    total_price decimal(14, 2), 
     invoice_id int not null, 
     treatment_id int not null, 
     constraint fk_invoice_id foreign key (invoice_id) references invoices(id), 
